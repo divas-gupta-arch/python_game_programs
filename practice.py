@@ -211,3 +211,21 @@
 # else:
 #     print("not palindrome")
 
+#functions
+# def add(a,b):
+#     print(a+b)
+# add(22,9)
+
+##func for palindrome
+# def pal(a):
+#     b=a
+#     rev=0
+#     while a>0:
+#         rev=10*rev +a%10
+#         a=a//10
+#     if b==rev:
+#         print("palindrome")    
+#     else:
+#         print("not a palindrome")
+# b=int(input("enter a num-:"))
+# pal(b)
