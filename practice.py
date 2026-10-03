@@ -43,13 +43,13 @@
 # else:
 #     print("not a leap year")
 
-##indexing of string
+###indexing of string
 
 # str=input("enter your name:")
 # for i in range(len(str)):
 #     print(str[i])
 
-##break and continue statment
+###break and continue statment
 
 # for i in range(1,11):
 #     if i==4:
@@ -176,7 +176,7 @@
 #         chr +=1
 # print(f" letter :{let},digits :{dig},characters:{chr}")
 
-## while loop
+### while loop
 # a=1
 # while a<=20:
 #     print(a)
@@ -211,7 +211,7 @@
 # else:
 #     print("not palindrome")
 
-#functions
+###functions
 # def add(a,b):
 #     print(a+b)
 # add(22,9)
@@ -229,3 +229,47 @@
 #         print("not a palindrome")
 # b=int(input("enter a num-:"))
 # pal(b)
+
+###data structueres
+## list
+# fruits=["apple","mango","grapes"]
+# fruits.pop()
+# print(fruits)
+
+##tarversing on list(loop on list)
+##by value
+
+# a=[10,20,30,40,50,"hello"]
+# for i in a:
+#     print(i)
+
+##by index
+# for i in range(0,len(a)):
+    # print(f"{i} : {a[i]}")
+
+## ques
+# l=[ 3,-1, 4,-5, 9]
+# pos=[]
+# neg=[]
+# for i in l:
+#     if i>=0:
+#             pos.append(i)
+#     else:
+#             neg.append(i)
+# print(f"positive elements are:{pos}")
+# print(f"negative elements are:{neg}")  
+
+##avg
+# l=[10,20,30,40]
+# sum=0
+# for i in l:
+#     sum=sum+i
+# print(f"avg={sum/len(l)}")
+
+##greatest element index
+l=[20,18,25,70,60]
+lar=l[0]
+for i in l:
+    if i>lar:
+        lar=i
+print(f'grater element is:{lar}')
