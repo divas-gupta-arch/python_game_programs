@@ -267,9 +267,66 @@
 # print(f"avg={sum/len(l)}")
 
 ##greatest element index
-l=[20,18,25,70,60]
-lar=l[0]
-for i in l:
-    if i>lar:
-        lar=i
-print(f'grater element is:{lar}')
+# l=[20,18,25,70,60]
+# lar=l[0]
+# index=0
+# for i in range(len(l)):
+#     if l[i]>lar:
+#         lar=l[i]
+#         index=i
+# print(f'grater element is:{lar}, index is:[{index}]')
+
+## second largest
+# l=[4,8,2,9,12,10]
+# lar=l[0]
+# sec_lar=l[0]
+# for i in l:
+#     if i>lar:
+#         sec_lar=lar
+#         lar=i
+#     elif i>sec_lar:
+#         sec_lar=i    
+# print(f"second largest is:{sec_lar} & largest is:{lar}")
+
+##check list is shorted or not
+# a=[10,20,30,40,70,50]
+##a=[10,20,30,40,50]
+# for i in range(len(a)-1):
+#     if a[i]>=a[i+1]:
+#         print("list is not shorted")
+#         break
+# else:
+#     print("list is shorted")
+
+##tuples
+# a=("mon","tue",123,4321,"mon","sat")
+# print(a[0])
+# print(a.count("mon"))
+# print(a.index("mon"))# frist accurance
+
+## use case(unpacking tuple)
+# def student():
+#     return ("divas",19,"divas@gmail.com")
+# info=student()
+# name,age,gmail=info
+# print(name)
+
+###sets
+# s={1,2,5,7,2,8,1,4,6}
+# p={6,2,1,4}
+# print(f"set is:{s};{p}")
+# s.add(22)
+# print(f"on adding single item in set:{s}")
+# p.update([20,30])
+# print(p)
+# print(f"on adding multiple item in set:{p}")
+# s.discard(2)
+# print(s)
+# print(f"union set are:{s|p}")
+# print(f"intersection of set are: {s&p}")
+# print("difference of set are:",s-p)
+# print(f"symmetric difference:{s^p}")
+
+#######################################################
+# print(hash("hello"))#unique value for particular item
+#######################################################
