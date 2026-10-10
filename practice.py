@@ -330,3 +330,11 @@
 #######################################################
 # print(hash("hello"))#unique value for particular item
 #######################################################
+
+##loops on set
+# a={30,40,40,90,8,80,95}
+# for i in a:
+#     print(i)
+
+
+### dicitonary
