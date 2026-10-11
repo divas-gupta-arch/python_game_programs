@@ -338,3 +338,27 @@
 
 
 ### dicitonary
+# d={"name":"dominator","age":22,"contry":"france"}
+# print(d["name"])
+# d["inc"]=600#creating a new key value pair
+# print(d)
+# d.update({"inc":10000})
+# d.pop("contry")
+# print(d)
+# d.popitem()#pop last inserted key-value pair
+# print(d)
+# print(d.get("grade"))#none b/z can't exixt in dict
+# c=d.copy()
+# print(d.items())
+# d.clear()
+# print(d)
+# print(f"copy dict c=d:{c}")
+# c.setdefault("name","kepler")#update if key value does't exist else return default value
+# print(c)
+##creating a new dict from itterable vslues(list/tupl)
+# q=c.fromkeys(["a","b"],90707)
+# print(q)
+##reversing/loops
+d={10:100,20:200,30:300,40:400}
+for i in d:
+    print(f"keys ({i}) : values ({d[i]})")
