@@ -359,6 +359,41 @@
 # q=c.fromkeys(["a","b"],90707)
 # print(q)
 ##reversing/loops
-d={10:100,20:200,30:300,40:400}
-for i in d:
-    print(f"keys ({i}) : values ({d[i]})")
+# d={10:100,20:200,30:300,40:400}
+# for i in d:
+#     print(f"keys ({i}) : values ({d[i]})")
+
+##questions
+# d1={"a":1}# d1+d2
+# d2={"b":3}
+# d1.update(d2)
+# print(d1)
+##or
+# for i in d2:
+#     d1[i]=d2[i]#aads new key:value if common then updates its
+# print(d1)
+
+##sum of all values
+# d={10:100,20:200,30:300,40:400}
+# sum=0
+# for i in d:
+#     sum=sum+d[i]
+# print(sum)
+## count no. of repetive keys in dict
+# l=["a","b","c","a","a","b","c","b","b","c","d"]
+# d={}
+# for i in l:
+#     if i in d.keys():
+#         d[i]=d[i]+1
+#     else:
+#         d[i]=1
+# print(d)
+##aad two dict if key value pair exixt aad their value
+d1={'a':10,'b':20,"c":30}
+d2={'c':40,'d':50,'e':60}
+for i in d2:
+    if i in d1.keys():
+        d1[i]=d1[i]+d2[i]
+    else:
+        d1[i]=d2[i]
+print(d1)
