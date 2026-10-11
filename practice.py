@@ -389,11 +389,31 @@
 #         d[i]=1
 # print(d)
 ##aad two dict if key value pair exixt aad their value
-d1={'a':10,'b':20,"c":30}
-d2={'c':40,'d':50,'e':60}
-for i in d2:
-    if i in d1.keys():
-        d1[i]=d1[i]+d2[i]
-    else:
-        d1[i]=d2[i]
-print(d1)
+# d1={'a':10,'b':20,"c":30}
+# d2={'c':40,'d':50,'e':60}
+# for i in d2:
+#     if i in d1.keys():
+#         d1[i]=d1[i]+d2[i]
+#     else:
+#         d1[i]=d2[i]
+# print(d1)
+
+### exception handling
+# a=int(input("enter your 1st num-:"))
+# b=int(input("enter your 2nd num-:"))
+# try:
+#     print(a/b)
+# except Exception as err:
+#     print(f"sorry an error occured as:{err}")
+# else:
+#     print("no error occured")
+# finally:
+#     print("if the're error or the're no error i will run no matter what is the condition is ")
+# name=input("enter your name-:")
+# print(f"Hello! your name is -:{name}") 
+
+##rasie an manuall error
+# age=int(input("enter your age:"))
+# if age <18:
+#     raise TypeError("you are not eligible")
+# print("you're eligible")
