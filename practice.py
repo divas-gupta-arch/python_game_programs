@@ -417,3 +417,19 @@
 # if age <18:
 #     raise TypeError("you are not eligible")
 # print("you're eligible")
+
+###File Handling
+# with open("sample.txt","w") as f:
+#     data=input("enter a data you want to write in file-:")
+#     f.write(data)
+
+##reading a file
+# with open("sample.txt","r") as f:
+#     print(f.read())
+
+## appending a newdata 
+# with open("sample.txt","a") as f:
+#     data=input("enter a data you want to append in file-:")
+#     f.write(f"\n{data}")
+
+
