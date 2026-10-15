@@ -431,5 +431,3 @@
 # with open("sample.txt","a") as f:
 #     data=input("enter a data you want to append in file-:")
 #     f.write(f"\n{data}")
-
-
