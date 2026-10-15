@@ -1,1 +1,2 @@
-Hello dominator it,s your first file 
+hello everyone!
+this file handling curd operation using python
