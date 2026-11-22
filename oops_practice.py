@@ -21,3 +21,19 @@
 # print(f.name)  #accessing attributes
 # f.condition()
 
+### constructor
+
+# class bags:
+#     def __init__(self,materail,zips,pockets):   ## here self store the addresses of objects
+#         self.materail=materail
+#         self.zips=zips
+#         self.pockets=pockets
+
+#     def info(self):
+#         print(f"materail={self.materail}; zips={self.zips}; pockets={self.pockets}")
+
+# safari=bags("polyster",6,3)
+# campus=bags("lather",2,1)
+# safari.info()
+# print(campus.pockets)
+
