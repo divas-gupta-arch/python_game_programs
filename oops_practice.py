@@ -37,3 +37,4 @@
 # safari.info()
 # print(campus.pockets)
 
+### type of attributes
