@@ -79,3 +79,4 @@
 # animal.details()
 # animal.speak()
 
+### ineritance
