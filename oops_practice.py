@@ -38,3 +38,24 @@
 # print(campus.pockets)
 
 ### type of attributes
+
+# class Student:
+#     college = "CCSU"            # class attribute
+#     def __init__(self, name, age):
+#         self.name = name        # instance attribute
+#         self.age = age          # instance attribute
+
+# s1 = Student("Dominator",20)
+# s2 = Student("Rahul",21)
+
+# print(s1.name)   
+# print(s2.name)   
+# s1.name = "Aman"          # changes s1 only
+# print(s2.name)            # Rahul (unchanged)
+
+# print(s1.college, s2.college)   # CCSU CCSU
+# Student.college = "DU"          # change it through the class
+# print(s1.college, s2.college)   # DU DU (changed for everyone)
+
+### methods
+
