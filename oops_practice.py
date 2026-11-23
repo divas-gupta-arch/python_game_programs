@@ -59,3 +59,23 @@
 
 ### methods
 
+# class animal:
+#     a= 12
+#     def __init__(self,name):
+#         self.name=name
+#     def hello(self):    # instance/object method.. its capture the location of object 
+#         print(f"how are you my name is {self.name}")
+
+#     @classmethod 
+#     def details(cls):  # class method.. its capture the location of class
+#         print(f" hello sir i am {cls.a}")
+
+#     @staticmethod
+#     def speak():       # static method.. its cant capture any location
+#         print("hello i am a static method")
+
+# obj=animal("lion")
+# obj.hello()
+# animal.details()
+# animal.speak()
+
