@@ -168,17 +168,18 @@
 
 ### multiple inheritance -- one child many patent
 
-# class Father:                #parent
-#     def skill(self):
-#         print("Gardening")
-# class Mother:                 #parent
-#     def talent(self):
-#         print("Singing")
-# class Child(Father, Mother):  #child
-#     pass
-# c = Child()
-# c.skill()       # from Father
-# c.talent()      # from Mother
+# class animal:                #parent
+#     def __init__(self,name):
+#         self.name= name
+# class humans:                 #parent
+#     def __init__(self,id):
+#         self.id=id
+# class robots(humans,animal):  #child
+#     def __init__(self, id,name):
+#         humans.__init__(id)
+#         animal.__init__(self.name)
+
+# robo=robots(977,"dominator")
 
 ### hybride inheritance -- a mix of two or more thye above
 
