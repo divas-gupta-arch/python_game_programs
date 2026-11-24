@@ -95,3 +95,62 @@
 # obj2=humans("harsh")
 # obj2.details()
 # print(obj2.a)
+
+### costructor with class
+
+# class bagsfatory:
+#     def __init__(self,materail,zips,pockets):   
+#         self.materail=materail
+#         self.zips=zips
+#         self.pockets=pockets
+
+#     def details(self):
+#         print("your bag details are-")
+#         print(self.materail)
+#         print(self.zips)
+#         print(self.pockets)
+
+# class reebok(bagsfatory):
+#     def __init__(self, materail, zips, pockets,color):
+#         super().__init__(materail, zips, pockets)
+#         self.color=color
+#     def  details(self):
+#         super().details()
+#         print(self.color)
+
+# bag1=bagsfatory("leather",3,2)
+# bag2=reebok("polyster",2,5,"black")
+
+# # bag1.details()
+# bag2.details()
+
+### types of inheritance
+
+### single inheritance -- inheritGE CLASS SINGLW TIME ONLY
+
+# class Person:
+#     def greet(self):
+#         print("Hello")
+# class Student(Person):
+#     def study(self):
+#         print("Studying")
+# s = Student()
+# s.greet()       
+# s.study()
+
+### multilevel inheritance -- chain-grandparent-parent-child
+
+# class Vehicle:  # grangparent class
+#     def start(self):
+#         print("Vehicle started")
+# class Car(Vehicle):  # parent class
+#     def drive(self):
+#         print("Car driving")
+# class ElectricCar(Car):  #child class
+#     def charge(self):
+#         print("Charging")
+# e = ElectricCar()
+# e.start()       # from Vehicle
+# e.drive()       # from Car
+# e.charge()      # its own
+
