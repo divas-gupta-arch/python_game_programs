@@ -154,3 +154,42 @@
 # e.drive()       # from Car
 # e.charge()      # its own
 
+### hierarchial class -- one parent many children
+
+# class Animal:   #parent
+#     def eat(self):
+#         print("Eating")
+# class Dog(Animal):  # child
+#     def bark(self):
+#         print("Woof")
+# class Cat(Animal):
+#     def meow(self):  # child 
+#         print("Meow")
+
+### multiple inheritance -- one child many patent
+
+# class Father:                #parent
+#     def skill(self):
+#         print("Gardening")
+# class Mother:                 #parent
+#     def talent(self):
+#         print("Singing")
+# class Child(Father, Mother):  #child
+#     pass
+# c = Child()
+# c.skill()       # from Father
+# c.talent()      # from Mother
+
+### hybride inheritance -- a mix of two or more thye above
+
+# class A:
+#     def show_a(self): print("A")
+# class B(A):                 # single / hierarchical
+#     def show_b(self): print("B")
+# class C(A):
+#     def show_c(self): print("C")
+# class D(B, C):              # multiple
+#     pass
+# d = D()
+# d.show_a(); d.show_b(); d.show_c()
+
