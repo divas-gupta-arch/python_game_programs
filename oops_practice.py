@@ -80,3 +80,18 @@
 # animal.speak()
 
 ### ineritance
+
+# class animal:   # parent/base class
+#     a=13
+#     def __init__(self,name):
+#         self.name= name
+#     def details(self):
+#         print(f"hello your name is: {self.name}")
+
+# class humans(animal):   # child/derived class can able to access the attributes and methods por parent/base class
+#     pass
+
+# obj=animal("lion")
+# obj2=humans("harsh")
+# obj2.details()
+# print(obj2.a)
