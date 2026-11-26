@@ -209,4 +209,20 @@
 # for animal in [Dog(), Cat()]:
 #     animal.speak()          # same call, different result
 
+### method overriding -- we need inheritance 
+
+# class Shape:
+#     def area(self):
+#         print("Area not defined")
+
+# class Circle(Shape):
+#     def area(self):                 # overrides the parent's area()
+#         print("Circle area = 3.14 * r * r")
+
+# class Square(Shape):
+#     def area(self):
+#         print("Square area = side * side")
+
+# for s in [Circle(), Square()]:
+#     s.area()
     
