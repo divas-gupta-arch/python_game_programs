@@ -194,4 +194,5 @@
 # d = D()
 # d.show_a(); d.show_b(); d.show_c()
 
-bvjhvghv
+### polymorphism
+
