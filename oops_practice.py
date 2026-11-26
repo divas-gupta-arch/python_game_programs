@@ -194,5 +194,19 @@
 # d = D()
 # d.show_a(); d.show_b(); d.show_c()
 
-### polymorphism
+### polymorphism -- gives different result on same call for different data types
 
+### thypes of polymorphism
+
+### duck typing method
+
+class Dog:  
+    def speak(self):
+        print("Woof")
+class Cat:
+    def speak(self):
+        print("Meow")
+for animal in [Dog(), Cat()]:
+    animal.speak()          # same call, different result
+
+    
