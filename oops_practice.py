@@ -226,3 +226,4 @@
 # for s in [Circle(), Square()]:
 #     s.area()
     
+6rtyftfu
