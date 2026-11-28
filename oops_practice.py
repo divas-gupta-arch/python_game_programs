@@ -226,4 +226,3 @@
 # for s in [Circle(), Square()]:
 #     s.area()
     
-    xc nxc n
